@@ -15,8 +15,8 @@
 - [ ] Confirm Claude responds to test message properly
 
 ## Source Control
-- [ ] Set up Git repository
-- [ ] Initial commit + push to GitHub
+- [x] Set up Git repository
+- [x] Initial commit + push to GitHub
 
 ## Documentation
 - [ ] Add a short README describing how to run the server and connect a client
