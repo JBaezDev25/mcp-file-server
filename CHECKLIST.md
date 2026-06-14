@@ -19,4 +19,4 @@
 - [x] Initial commit + push to GitHub
 
 ## Documentation
-- [ ] Add a short README describing how to run the server and connect a client
+- [x] Add a short README describing how to run the server and connect a client
