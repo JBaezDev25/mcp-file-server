@@ -1,0 +1,14 @@
+{
+  "name": "mcp-file-server",
+  "version": "1.0.0",
+  "description": "Simple MCP Server for file operations",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.104.1",
+    "@modelcontextprotocol/sdk": "latest"
+  }
+}
