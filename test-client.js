@@ -1,3 +1,4 @@
+import "dotenv/config";
 import Anthropic from "@anthropic-ai/sdk";
 
 const client = new Anthropic({
@@ -6,7 +7,7 @@ const client = new Anthropic({
 
 async function testMCP() {
   const response = await client.messages.create({
-    model: "claude-opus-4-6",
+    model: "claude-sonnet-4-6",
     max_tokens: 1024,
     messages: [
       { role: "user", content: "Hello Claude, can you help me test this integration?" },
